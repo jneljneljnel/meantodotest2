@@ -1,0 +1,48 @@
+<!DOCTYPE>
+<html ng-app="myApp">
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+<!-- FA-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <title>MEAN todo</title>
+</head>
+<body>
+  <div class="container" ng-controller="AppCtrl">
+    <h1>MEAN todo</h1>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Name</th>         
+          <th>Desc</th>
+          <th>Action</th>
+          <th>&nbsp;</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><input class="form-control" ng-model="todo.name"></td>
+          <td><input class="form-control" ng-model="todo.desc"></td>
+          <td><button class="btn btn-primary" ng-click="addTodo()">Add Todo</button></td>
+      
+        </tr>
+        <tr ng-repeat="todo in tododb">
+          <td>{{todo.name}}</td>
+          <td>{{todo.desc}}</td>
+      
+          <td><button class="btn btn-danger" ng-click="remove(todo._id)"><i class="fa fa-times"></i></button></td>
+          
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.12/angular.min.js"></script>
+<script src="controllers/controller.js"></script>
+</body>
+</html>
