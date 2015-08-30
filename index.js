@@ -4,7 +4,7 @@ var mongojs = require('mongojs');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
 
-
+app.set('port', (process.env.PORT || 5000));
 
 var db = mongojs('mongodb://jneljneljnel:xxxxxx@ds035563.mongolab.com:35563/heroku_nj559zcv', ['tododb']);
 
@@ -54,5 +54,6 @@ app.put('/tododb/:id', function (req, res) {
   );
 });
 
-app.listen(3000);
-console.log("Server running on port 3000");
+app.listen(app.get('port'), function() {
+  console.log('Node app is running on port', app.get('port'));
+});
