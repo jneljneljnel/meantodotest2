@@ -1,0 +1,101 @@
+2015-08-30T19:33:16.898456+00:00 app[web.1]: npm ERR! not with npm itself.
+2015-08-30T19:33:16.898318+00:00 app[web.1]: npm ERR! This is most likely a problem with the mean-todo package,
+2015-08-30T19:33:16.877121+00:00 app[web.1]:     at Function.Module.runMain (module.js:501:10)
+2015-08-30T19:33:16.877122+00:00 app[web.1]:     at startup (node.js:129:16)
+2015-08-30T19:33:16.877124+00:00 app[web.1]:     at node.js:814:3
+2015-08-30T19:33:16.888471+00:00 app[web.1]: 
+2015-08-30T19:33:16.895165+00:00 app[web.1]: npm ERR! argv "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2015-08-30T19:33:16.895603+00:00 app[web.1]: npm ERR! node v0.12.7
+2015-08-30T19:33:16.898588+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2015-08-30T19:33:16.896330+00:00 app[web.1]: npm ERR! npm  v2.11.3
+2015-08-30T19:33:16.896697+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2015-08-30T19:33:16.898715+00:00 app[web.1]: npm ERR!     node app
+2015-08-30T19:33:16.896993+00:00 app[web.1]: npm ERR! mean-todo@0.0.1 start: `node app`
+2015-08-30T19:33:16.897208+00:00 app[web.1]: npm ERR! Exit status 1
+2015-08-30T19:33:16.897442+00:00 app[web.1]: npm ERR! 
+2015-08-30T19:33:16.897947+00:00 app[web.1]: npm ERR! Failed at the mean-todo@0.0.1 start script 'node app'.
+2015-08-30T19:33:16.898849+00:00 app[web.1]: npm ERR! You can get their info via:
+2015-08-30T19:33:16.904049+00:00 app[web.1]: npm ERR! Please include the following file with any support request:
+2015-08-30T19:33:16.904177+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2015-08-30T19:33:16.899093+00:00 app[web.1]: npm ERR!     npm owner ls mean-todo
+2015-08-30T19:33:16.899236+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2015-08-30T19:33:16.903595+00:00 app[web.1]: 
+2015-08-30T19:33:17.802764+00:00 heroku[web.1]: Process exited with status 1
+2015-08-30T19:33:17.815572+00:00 heroku[web.1]: State changed from starting to crashed
+2015-08-30T19:33:17.816647+00:00 heroku[web.1]: State changed from crashed to starting
+2015-08-30T19:33:20.557381+00:00 heroku[web.1]: Starting process with command `npm start`
+2015-08-30T19:33:22.854264+00:00 app[web.1]: 
+2015-08-30T19:33:22.854286+00:00 app[web.1]: > mean-todo@0.0.1 start /app
+2015-08-30T19:33:22.854288+00:00 app[web.1]: > node app
+2015-08-30T19:33:22.854289+00:00 app[web.1]: 
+2015-08-30T19:33:23.068314+00:00 app[web.1]: module.js:338
+2015-08-30T19:33:23.068320+00:00 app[web.1]:     throw err;
+2015-08-30T19:33:23.068321+00:00 app[web.1]:           ^
+2015-08-30T19:33:23.068323+00:00 app[web.1]: Error: Cannot find module '/app/app'
+2015-08-30T19:33:23.068325+00:00 app[web.1]:     at Function.Module._resolveFilename (module.js:336:15)
+2015-08-30T19:33:23.068326+00:00 app[web.1]:     at Function.Module._load (module.js:278:25)
+2015-08-30T19:33:23.068328+00:00 app[web.1]:     at Function.Module.runMain (module.js:501:10)
+2015-08-30T19:33:23.068331+00:00 app[web.1]:     at startup (node.js:129:16)
+2015-08-30T19:33:23.068333+00:00 app[web.1]:     at node.js:814:3
+2015-08-30T19:33:23.079999+00:00 app[web.1]: 
+2015-08-30T19:33:23.086393+00:00 app[web.1]: npm ERR! argv "/app/.heroku/node/bin/node" "/app/.heroku/node/bin/npm" "start"
+2015-08-30T19:33:23.086628+00:00 app[web.1]: npm ERR! node v0.12.7
+2015-08-30T19:33:23.087416+00:00 app[web.1]: npm ERR! npm  v2.11.3
+2015-08-30T19:33:23.087598+00:00 app[web.1]: npm ERR! code ELIFECYCLE
+2015-08-30T19:33:23.087772+00:00 app[web.1]: npm ERR! mean-todo@0.0.1 start: `node app`
+2015-08-30T19:33:23.087915+00:00 app[web.1]: npm ERR! Exit status 1
+2015-08-30T19:33:23.088077+00:00 app[web.1]: npm ERR! 
+2015-08-30T19:33:23.088248+00:00 app[web.1]: npm ERR! Failed at the mean-todo@0.0.1 start script 'node app'.
+2015-08-30T19:33:23.088412+00:00 app[web.1]: npm ERR! This is most likely a problem with the mean-todo package,
+2015-08-30T19:33:23.088548+00:00 app[web.1]: npm ERR! not with npm itself.
+2015-08-30T19:33:23.088699+00:00 app[web.1]: npm ERR! Tell the author that this fails on your system:
+2015-08-30T19:33:23.088819+00:00 app[web.1]: npm ERR!     node app
+2015-08-30T19:33:23.088945+00:00 app[web.1]: npm ERR! You can get their info via:
+2015-08-30T19:33:23.092854+00:00 app[web.1]: 
+2015-08-30T19:33:23.089118+00:00 app[web.1]: npm ERR!     npm owner ls mean-todo
+2015-08-30T19:33:23.089258+00:00 app[web.1]: npm ERR! There is likely additional logging output above.
+2015-08-30T19:33:23.085798+00:00 app[web.1]: npm ERR! Linux 3.13.0-57-generic
+2015-08-30T19:33:23.093290+00:00 app[web.1]: npm ERR! Please include the following file with any support request:
+2015-08-30T19:33:23.093680+00:00 app[web.1]: npm ERR!     /app/npm-debug.log
+2015-08-30T19:33:24.129824+00:00 heroku[web.1]: Process exited with status 1
+2015-08-30T19:33:24.143764+00:00 heroku[web.1]: State changed from starting to crashed
+2015-08-30T19:33:35.334526+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=todo420.herokuapp.com request_id=16bf88f3-7550-4eef-836c-1cacd6054c35 fwd="73.45.66.141" dyno= connect= service= status=503 bytes=
+2015-08-30T19:33:35.547084+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=todo420.herokuapp.com request_id=69de7840-23ef-45c0-bbe7-31258955a2f7 fwd="73.45.66.141" dyno= connect= service= status=503 bytes=
+2015-08-30T19:33:41.875256+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=todo420.herokuapp.com request_id=9802a18b-c6cd-499b-ad01-c246fb9f025d fwd="73.45.66.141" dyno= connect= service= status=503 bytes=
+2015-08-30T19:33:42.063805+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=todo420.herokuapp.com request_id=fb421c07-42ab-4bec-8c03-68b1570db956 fwd="73.45.66.141" dyno= connect= service= status=503 bytes=
+2015-08-30T19:33:43.533294+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=todo420.herokuapp.com request_id=23362738-ab57-4e60-9b5d-3a75d37961a4 fwd="73.45.66.141" dyno= connect= service= status=503 bytes=
+2015-08-30T19:33:43.731771+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=todo420.herokuapp.com request_id=b76709ff-38be-4c36-880c-de3407169de1 fwd="73.45.66.141" dyno= connect= service= status=503 bytes=
+2015-08-30T19:33:44.181200+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=todo420.herokuapp.com request_id=934a1090-503f-4494-b2bc-99a199fc4f35 fwd="73.45.66.141" dyno= connect= service= status=503 bytes=
+2015-08-30T19:33:44.371818+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=todo420.herokuapp.com request_id=1903866d-ae65-4697-96b9-4c6ea448ab02 fwd="73.45.66.141" dyno= connect= service= status=503 bytes=
+2015-08-30T19:41:27.770911+00:00 heroku[api]: Deploy a0ab1ed by whoisjeremynelson@gmail.com
+2015-08-30T19:41:27.771050+00:00 heroku[api]: Release v8 created by whoisjeremynelson@gmail.com
+2015-08-30T19:41:27.852355+00:00 heroku[slug-compiler]: Slug compilation finished
+2015-08-30T19:41:27.852346+00:00 heroku[slug-compiler]: Slug compilation started
+2015-08-30T19:41:27.917768+00:00 heroku[web.1]: State changed from crashed to starting
+2015-08-30T19:41:38.076224+00:00 heroku[web.1]: Starting process with command `npm start`
+2015-08-30T19:41:40.266057+00:00 app[web.1]: 
+2015-08-30T19:41:40.266088+00:00 app[web.1]: > mean-todo@0.0.1 start /app
+2015-08-30T19:41:40.266089+00:00 app[web.1]: > node server.js
+2015-08-30T19:41:40.266090+00:00 app[web.1]: 
+2015-08-30T19:41:41.809535+00:00 heroku[web.1]: State changed from starting to crashed
+2015-08-30T19:41:41.791638+00:00 heroku[web.1]: Process exited with status 0
+2015-08-30T19:42:36.184071+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=todo420.herokuapp.com request_id=feb9680b-79a9-4bbc-80ae-a3e58bee0d04 fwd="73.45.66.141" dyno= connect= service= status=503 bytes=
+2015-08-30T19:42:36.361932+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=todo420.herokuapp.com request_id=596cf525-4c47-4cc1-9582-f1c55e7e2da5 fwd="73.45.66.141" dyno= connect= service= status=503 bytes=
+2015-08-30T19:42:36.912339+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=todo420.herokuapp.com request_id=8e169cdc-0a42-49a5-8e25-230cd35d5c17 fwd="73.45.66.141" dyno= connect= service= status=503 bytes=
+2015-08-30T19:42:37.061228+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=todo420.herokuapp.com request_id=17b286a6-cce8-4739-8784-87f5e81e10cb fwd="73.45.66.141" dyno= connect= service= status=503 bytes=
+2015-08-30T19:42:37.416314+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=todo420.herokuapp.com request_id=8af888bc-1e87-4385-b2bc-52c2bffd5893 fwd="73.45.66.141" dyno= connect= service= status=503 bytes=
+2015-08-30T19:42:37.628083+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=todo420.herokuapp.com request_id=c9e252a0-ce0c-45f8-939c-c3ded9dbe8eb fwd="73.45.66.141" dyno= connect= service= status=503 bytes=
+2015-08-30T19:42:37.584121+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=todo420.herokuapp.com request_id=00c991a2-c7de-40ae-a9e1-c93a90decede fwd="73.45.66.141" dyno= connect= service= status=503 bytes=
+2015-08-30T19:42:37.796078+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=todo420.herokuapp.com request_id=08a2db04-8b61-47d4-9a81-e64f7624062f fwd="73.45.66.141" dyno= connect= service= status=503 bytes=
+2015-08-30T19:44:51.562452+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=todo420.herokuapp.com request_id=257bddc9-d2da-4c61-a892-663116d6a03d fwd="73.45.66.141" dyno= connect= service= status=503 bytes=
+2015-08-30T19:44:51.740888+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=todo420.herokuapp.com request_id=8dfcb992-cd56-45e8-ad56-0bc79f2e5730 fwd="73.45.66.141" dyno= connect= service= status=503 bytes=
+2015-08-30T19:44:52.344564+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=todo420.herokuapp.com request_id=b4fea346-c41e-499c-b537-af6632a8b77e fwd="73.45.66.141" dyno= connect= service= status=503 bytes=
+2015-08-30T19:44:52.191774+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=todo420.herokuapp.com request_id=0edf9a70-a77a-42ca-9805-df2e3a6f1317 fwd="73.45.66.141" dyno= connect= service= status=503 bytes=
+2015-08-30T19:50:20.922285+00:00 heroku[web.1]: State changed from crashed to starting
+2015-08-30T19:50:23.370934+00:00 heroku[web.1]: Starting process with command `npm start`
+2015-08-30T19:50:25.786530+00:00 app[web.1]: 
+2015-08-30T19:50:25.786553+00:00 app[web.1]: > mean-todo@0.0.1 start /app
+2015-08-30T19:50:25.786555+00:00 app[web.1]: > node server.js
+2015-08-30T19:50:25.786557+00:00 app[web.1]: 
+2015-08-30T19:50:27.568627+00:00 heroku[web.1]: State changed from starting to crashed
+2015-08-30T19:50:27.550693+00:00 heroku[web.1]: Process exited with status 0
