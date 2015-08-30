@@ -6,7 +6,7 @@ var bodyParser = require('body-parser');
 
 
 
-var db = mongojs('mongodb://jneljneljnel:Treepick1@ds035563.mongolab.com:35563/heroku_nj559zcv', ['tododb']);
+var db = mongojs('mongodb://jneljneljnel:xxxxxx@ds035563.mongolab.com:35563/heroku_nj559zcv', ['tododb']);
 
  // var db = mongoose.connect('mongodb://localhost/tododb');
  // db.on('error', console.error.bind(console, 'connection error:')); 
