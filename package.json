@@ -11,6 +11,6 @@
     "connect": "*",
     "mongoose": "*",
     "mongojs": "*",
-    "bodyParser": "*"
+    "body-parser": "*"
   }
 }
